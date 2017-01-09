@@ -1,0 +1,4 @@
+# test of zip() function
+
+iter = [1, 2, 3, 4]
+zip(*[iter]*n)

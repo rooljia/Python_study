@@ -1,0 +1,25 @@
+# transpositon of matrix
+
+matrix = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12],
+]
+
+# The following coding blocks are the same
+
+# the first one
+[[row[i] for row in matrix] for i in range(4)]
+
+# the second one
+transposed = []
+for i in range(4):
+    transposed. append([row[1] for row in matrix)
+
+# the 3rd one
+transposed = []
+for i in range(4):
+    neorow = []
+    for row in matrix:
+        neorow.append(row[i])
+    transposed.append(neorow)
